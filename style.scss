@@ -1,0 +1,29 @@
+$main-color: white;
+$header-background-color: #4DC9FF;
+$body-background-color: #00B2FF;
+$nav-font-size: 40px;
+$main-font-size: 30px;
+
+body {
+    background-color: $body-background-color;
+}
+
+header {
+    color: $main-color;
+    background-color: $header-background-color;
+    
+    nav {
+        text-align: center;
+        a {
+            color: $main-color;
+            font-size: $nav-font-size;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    }
+}
+
+main {
+    color: $main-color;
+    font-size: $main-font-size;
+}

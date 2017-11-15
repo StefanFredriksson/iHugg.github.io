@@ -1,0 +1,19 @@
+body {
+  background-color: #00B2FF; }
+
+header {
+  color: white;
+  background-color: #4DC9FF; }
+  header nav {
+    text-align: center; }
+    header nav a {
+      color: white;
+      font-size: 40px;
+      text-decoration: none;
+      font-weight: bold; }
+
+main {
+  color: white;
+  font-size: 30px; }
+
+/*# sourceMappingURL=style.css.map */
