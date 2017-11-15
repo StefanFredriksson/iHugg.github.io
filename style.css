@@ -1,5 +1,8 @@
 body {
-  background-color: #00B2FF; }
+  background-color: #00B2FF;
+  font-family: Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px; }
 
 header {
   color: white;
@@ -11,9 +14,23 @@ header {
       font-size: 40px;
       text-decoration: none;
       font-weight: bold; }
+    header nav a:hover, header nav a:active {
+      background-color: white;
+      color: #4DC9FF; }
 
 main {
   color: white;
   font-size: 30px; }
+  main img {
+    float: right;
+    height: 40%;
+    padding-right: 10px; }
+  main #generalInfo, main #favoriteVideoGames {
+    width: 40%;
+    background-color: #80D9FF;
+    padding-left: 10px;
+    padding-bottom: 10px; }
+    main #generalInfo h3, main #favoriteVideoGames h3 {
+      text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,11 +1,18 @@
+$font: Helvetica, sans-serif;
 $main-color: white;
 $header-background-color: #4DC9FF;
 $body-background-color: #00B2FF;
+$hover-background-color: white;
+$hover-color: #4DC9FF;
 $nav-font-size: 40px;
 $main-font-size: 30px;
+$base-padding: 10px;
 
 body {
     background-color: $body-background-color;
+    font-family: $font;
+    padding: 0px;
+    margin: 0px;
 }
 
 header {
@@ -20,10 +27,30 @@ header {
             text-decoration: none;
             font-weight: bold;
         }
+         a:hover, a:active {
+                background-color: $hover-background-color;
+                color: $hover-color;
+            }
     }
 }
 
 main {
     color: $main-color;
     font-size: $main-font-size;
+    
+    img {
+        float: right;
+        height: 40%;
+        padding-right: $base-padding;
+    }
+    
+    #generalInfo, #favoriteVideoGames {
+        h3 {
+            text-align: center;
+        }
+        width: 40%;
+        background-color: #80D9FF;
+        padding-left: $base-padding;
+        padding-bottom: $base-padding;
+    }
 }
