@@ -1,5 +1,6 @@
 $font: Helvetica, sans-serif;
 $main-color: white;
+$main-background-color: #80D9FF;
 $header-background-color: #4DC9FF;
 $body-background-color: #00B2FF;
 $hover-background-color: white;
@@ -15,6 +16,29 @@ body {
     margin: 0px;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    background-color: $hover-background-color;
+    color: $hover-color;
+}
+
+#wrapper {
+    max-width: 800px;
+    text-align: center;
+    padding-left: 30%;
+    
+    ul {
+        list-style-type: none;
+        
+        li {
+            background-color: $main-background-color;
+        }
+    }
+}
+
 header {
     color: $main-color;
     background-color: $header-background-color;
@@ -24,13 +48,8 @@ header {
         a {
             color: $main-color;
             font-size: $nav-font-size;
-            text-decoration: none;
             font-weight: bold;
         }
-         a:hover, a:active {
-                background-color: $hover-background-color;
-                color: $hover-color;
-            }
     }
 }
 
@@ -49,17 +68,22 @@ main {
             text-align: center;
         }
         width: 40%;
-        background-color: #80D9FF;
+        background-color: $main-background-color;
         padding-left: $base-padding;
         padding-bottom: $base-padding;
     }
 }
 
-#disqus_thread {
-    width: 30%;
-}
-
-.fb-share-button {
-    float: right;
+footer {
+    .fb-share-button {
+        float: right;
+    }
+    
+    a {
+        color: $main-color;
+    }
     clear: both;
+    height: 100px;
+    background-color: $main-background-color;
+    margin-top: 20px;
 }
