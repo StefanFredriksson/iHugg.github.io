@@ -33,4 +33,7 @@ main {
     main #generalInfo h3, main #favoriteVideoGames h3 {
       text-align: center; }
 
+#disqus_thread {
+  width: 30%; }
+
 /*# sourceMappingURL=style.css.map */
